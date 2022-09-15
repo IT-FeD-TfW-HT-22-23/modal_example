@@ -2,13 +2,16 @@ import Layout from "./Layout";
 import Header from "./Header";
 import About from "./About";
 import Contact from "./Contact";
+import Intro from "./Intro";
+import Cards from "./Cards";
 
 const Page = () => {
   return (
     <>
       <Header />
       <Layout>
-        <h1 style={{ marginBottom: "80rem" }}>Page</h1>
+        <Intro />
+        <Cards />
         <About />
         <Contact />
       </Layout>

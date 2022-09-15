@@ -5,5 +5,7 @@
    KLARA
 
 5. Landing/Intro
-6. Card section med modal/popup
-7. Alternativ menu, vi kodar CSS tillsammans
+6. Card section med (modal/popup)
+7. Text/bild section
+8. Alternativ menu, vi kodar CSS tillsammans
+9. Footer
