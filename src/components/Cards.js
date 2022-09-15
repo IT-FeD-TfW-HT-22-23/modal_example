@@ -10,6 +10,27 @@ const Cards = () => {
             <p>Card 1</p>
           </div>
         </div>
+
+        <div className="card 2">
+          <div className="card-img"></div>
+          <div className="card-title">
+            <p>Card 2</p>
+          </div>
+        </div>
+
+        <div className="card 3">
+          <div className="card-img"></div>
+          <div className="card-title">
+            <p>Card 3</p>
+          </div>
+        </div>
+
+        <div className="card 4">
+          <div className="card-img"></div>
+          <div className="card-title">
+            <p>Card 4</p>
+          </div>
+        </div>
       </div>
     </div>
   );
