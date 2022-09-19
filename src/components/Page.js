@@ -4,6 +4,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Intro from "./Intro";
 import Cards from "./Cards";
+import Footer from "./Footer";
 
 const Page = () => {
   return (
@@ -15,6 +16,7 @@ const Page = () => {
         <About />
         <Contact />
       </Layout>
+      <Footer />
     </>
   );
 };

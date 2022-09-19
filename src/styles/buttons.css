@@ -1,5 +1,4 @@
 :root {
-  --backgroundColor: #f5f0d1;
   --colorShadeA: #6b07bc;
   --colorShadeB: #6608b2;
   --colorShadeC: #b772fc;
@@ -33,7 +32,7 @@ button {
   padding: 1em 2em;
   border: 2px solid var(--colorShadeA);
   border-radius: 1em;
-  background: var(--backgroundColor);
+  background: var(--colorShadeE);
   transform-style: preserve-3d;
   transition: all 175ms cubic-bezier(0, 0, 1, 1);
   /*https://www.w3schools.com/cssref/func_cubic-bezier.asp*/
@@ -62,4 +61,13 @@ button {
 
 .btn:hover::before {
   transform: translate3d(0, 0.75em, -1em);
+}
+
+.btn:active {
+  transform: translate(0, 0.75em);
+}
+
+.btn:active::before {
+  transform: translate3d(0, 0, -1em);
+  box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
 }

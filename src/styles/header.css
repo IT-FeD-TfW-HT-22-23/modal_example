@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #dbafff;
+  background-color: #d2a9fc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +9,7 @@
 .navbar-links {
   display: flex;
   list-style: none;
+  color: white;
 }
 
 .navbar-links-item {

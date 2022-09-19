@@ -7,14 +7,16 @@ const Contact = () => {
   };
 
   return (
-    <div
-      id="contact"
-      style={{ backgroundColor: "plum", width: "100vw", height: "80vh" }}
-    >
+    <div id="contact" style={{ width: "100vw", height: "50vh" }}>
       <h1>Contact</h1>
       <BsFillArrowUpCircleFill
         onClick={toTop}
-        style={{ marginLeft: "30rem", fontSize: "30px", cursor: "pointer" }}
+        style={{
+          marginLeft: "80rem",
+          marginTop: "30rem",
+          fontSize: "30px",
+          cursor: "pointer",
+        }}
       />
     </div>
   );
