@@ -1,15 +1,22 @@
 import { animateScroll as scroll } from "react-scroll";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import "../styles/contact.css";
 
-const Contact = () => {
+const Contact = ({ children }) => {
   const toTop = () => {
     scroll.scrollToTop();
   };
 
   return (
-    <div id="contact" style={{ width: "100vw", height: "50vh" }}>
-      <h1>Contact</h1>
-      <BsFillArrowUpCircleFill
+    <div id="contact" className="contact">
+      {children}
+    </div>
+  );
+};
+
+export default Contact;
+
+/*   <BsFillArrowUpCircleFill
         onClick={toTop}
         style={{
           marginLeft: "80rem",
@@ -18,8 +25,4 @@ const Contact = () => {
           cursor: "pointer",
         }}
       />
-    </div>
-  );
-};
-
-export default Contact;
+       */

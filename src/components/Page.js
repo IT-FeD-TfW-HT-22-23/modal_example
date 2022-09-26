@@ -5,6 +5,9 @@ import Contact from "./Contact";
 import Intro from "./Intro";
 import Cards from "./Cards";
 import Footer from "./Footer";
+import Uncontrolled from "../forms/Uncontrolled";
+import Controlled from "../forms/Controlled";
+import ContactForm from "./ContactForm";
 
 const Page = () => {
   return (
@@ -14,7 +17,9 @@ const Page = () => {
         <Intro />
         <Cards />
         <About />
-        <Contact />
+        <Contact>
+          <ContactForm />
+        </Contact>
       </Layout>
       <Footer />
     </>
