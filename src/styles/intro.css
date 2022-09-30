@@ -1,29 +1,86 @@
-/*.intro {
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-}
-kanske inte använda
-*/
-
-.intro-img {
-  background-color: #caf3e5;
-  /*background: url("")*/
-  background-size: cover;
-  object-fit: cover;
+.intro {
+  background: url("../images/klarrny.png");
+  background-position: 50% center;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 40vh;
+  object-fit: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
   /*ev lägga på opacity, ev justera height*/
 }
 
 .cta {
-  background-color: white;
-  margin: 3rem 0 3rem 0;
-  width: 60vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.797);
+  width: 55%;
+  padding: 6rem 6rem 22rem 6rem;
+  margin: 14rem 0 0 10rem;
+  border-radius: 30px;
   text-align: center;
+}
+
+.cta h1 {
+  letter-spacing: 1px;
+  padding: 0 2rem 2rem 2rem;
+  font-weight: 800;
+}
+
+.cta p {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.type {
+  width: 45em;
+  margin-bottom: 3rem;
+}
+
+.test {
+  width: 50rem;
+}
+
+@media screen and (min-width: 1800px) {
+  .typo {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .intro {
+    background-position: 65% center;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .intro {
+    background-position: 70% center;
+  }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1100px) {
+  .intro {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40rem;
+  }
+
+  .cta {
+    width: 70%;
+    padding: 0rem;
+    margin: 85rem 0 0 0;
+  }
+
+  .typo {
+    width: 35em;
+  }
+
+  .cta p {
+    font-size: 2rem;
+  }
 }

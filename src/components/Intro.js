@@ -1,22 +1,22 @@
 import Buttons from "./Buttons";
 import "../styles/intro.css";
+import Typography from "./Typography";
+import Test from "./Test";
 
 const Intro = () => {
   return (
     <>
-      <div className="intro-img">
-        <h1 style={{ marginLeft: "5rem" }}>Hero Image</h1>
+      <div className="intro">
+        <div className="cta">
+          <Typography className="typo" />
+          <p>
+            I'm a freelance software developer. I work with cutting-edge
+            software tools and frameworks to build apps that are fast,
+            maintainable and scale like crazy.
+          </p>
+        </div>
       </div>
-      <div className="cta">
-        <h2>Lorem ipsum dolor sit amet, consectetur elit</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip.
-        </p>
-        <Buttons />
-      </div>
+      <Buttons />
     </>
   );
 };

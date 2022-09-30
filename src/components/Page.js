@@ -12,14 +12,8 @@ import ContactForm from "./ContactForm";
 const Page = () => {
   return (
     <>
-      <Header />
       <Layout>
         <Intro />
-        <Cards />
-        <About />
-        <Contact>
-          <ContactForm />
-        </Contact>
       </Layout>
       <Footer />
     </>

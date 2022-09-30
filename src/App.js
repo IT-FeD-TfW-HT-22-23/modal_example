@@ -1,11 +1,8 @@
 import Page from "./components/Page";
+import Intro from "./components/Intro";
 
 function App() {
-  return (
-    <div>
-      <Page />
-    </div>
-  );
+  return <Page />;
 }
 
 export default App;

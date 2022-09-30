@@ -1,16 +1,28 @@
 .about-grid {
-  display: grid;
-  grid-template-rows: 500px;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.a-item-one {
-  background-color: #e5ccfe;
-}
-
-.a-item-two {
-  padding: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  height: 75vh;
+  overflow: hidden;
+}
+
+.about-img {
+  height: 700px;
+  width: 55%;
+  z-index: -1;
+  position: relative;
+  left: 4rem;
+  top: 4rem;
+}
+
+/*
+div {
+  text-align: center;
+  padding: 0 3rem 0 6rem;
+}*/
+
+.container h1 {
+  font-family: "Silkscreen", cursive;
+  font-size: 5rem;
 }

@@ -3,9 +3,36 @@ import "../styles/buttons.css";
 const Buttons = () => {
   return (
     <div className="buttons">
-      <button className="btn">Button One</button>
-      <button className="btn">Button Two</button>
-      <button className="btn">Button Three</button>
+      <button
+        style={{
+          fontWeight: "600",
+          letterSpacing: "1px",
+          fontSize: "1.7rem",
+        }}
+        className="btn"
+      >
+        Services
+      </button>
+      <button
+        style={{
+          fontWeight: "600",
+          letterSpacing: "1px",
+          fontSize: "1.7rem",
+        }}
+        className="btn"
+      >
+        About
+      </button>
+      <button
+        style={{
+          fontWeight: "600",
+          letterSpacing: "1px",
+          fontSize: "1.7rem",
+        }}
+        className="btn"
+      >
+        Contact
+      </button>
     </div>
   );
 };

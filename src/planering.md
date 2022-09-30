@@ -22,12 +22,12 @@
 - Vi skapar grunden till vårt formulär
 - Vi påbörjar implementering av EmailJS (gör klart om vi hinner)
 
-### Torsdag 27/9
+### Torsdag 29/9
 
 - Vi gör klart vår footer
 - Vi gör vår sida responsiv
 
-### Fredag 28/9
+### Fredag 30/9
 
 - Vi tittar på mitt färdiga exempel, resurser finns i artikel
 - Vi deployar vår app

@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   padding: 5rem 2rem 5rem 2rem;
-  background-color: #caf3e5;
+
+  margin-top: -6.5rem;
 }
 
 .cards-list {
@@ -13,11 +14,16 @@
   flex-wrap: wrap;
 }
 
-.card {
+.card-one {
+  background: url("../images/web.png");
+  background-position: 52%;
   margin: 30px auto;
-  width: 350px;
-  height: 250px;
-  border-radius: 40px;
+  width: 283px;
+  height: 500px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 30px;
   -webkit-box-shadow: 0px 0px 34px -10px rgba(0, 0, 0, 0.58);
   -moz-box-shadow: 0px 0px 34px -10px rgba(0, 0, 0, 0.58);
   box-shadow: 0px 0px 34px -10px rgba(0, 0, 0, 0.58);
@@ -26,10 +32,40 @@
   background-color: white;
 }
 
-.card .card-img {
-  width: inherit;
-  height: inherit;
-  border-radius: 40px;
+.card-two {
+  background: url("../images/mobile.png");
+  background-position: 54%;
+  margin: 30px auto;
+  width: 283px;
+  height: 500px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 34px -10px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 34px -10px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 34px -10px rgba(0, 0, 0, 0.58);
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: white;
+}
+
+.card-three {
+  background: url("../images/learn.png");
+  background-position: 50% center;
+  margin: 30px auto;
+  width: 283px;
+  height: 510px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 34px -10px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 34px -10px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 34px -10px rgba(0, 0, 0, 0.58);
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: white;
 }
 
 /*Eventuell använda img element*/
@@ -44,7 +80,9 @@
   height: 40px;
 }
 
-.card:hover {
+.card-one:hover,
+.card-two:hover,
+.card-three:hover {
   scale: 0.9 0.9;
   /*transform: scale(0.9, 0.9);*/
   -webkit-box-shadow: 0px 0px 53px -7px rgba(0, 0, 0, 0.63);
