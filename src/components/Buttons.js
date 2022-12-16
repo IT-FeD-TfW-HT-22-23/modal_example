@@ -1,8 +1,16 @@
-import "../styles/buttons.css";
+import Modal from "./Modal";
+import { useState } from "react";
 
 const Buttons = () => {
+  const [status, setStatus] = useState(false);
+
   return (
     <div className="buttons">
+      {status && (
+        <Modal close={() => setStatus(false)}>
+          <div className="modal-div">hejhej</div>
+        </Modal>
+      )}
       <button
         style={{
           fontWeight: "600",
@@ -10,6 +18,7 @@ const Buttons = () => {
           fontSize: "1.7rem",
         }}
         className="btn"
+        onClick={() => setStatus(true)}
       >
         Services
       </button>

@@ -1,9 +1,12 @@
 import Buttons from "./Buttons";
+import Modal from "./Modal";
 import "../styles/intro.css";
 import Typography from "./Typography";
 import Test from "./Test";
+import { useState } from "react";
 
 const Intro = () => {
+  const [status, setStatus] = useState(false);
   return (
     <>
       <div className="intro">
@@ -16,6 +19,10 @@ const Intro = () => {
           </p>
         </div>
       </div>
+      <Modal close={() => setStatus(false)}>
+        <p>hejhej</p>
+      </Modal>
+      <button onClick={() => setStatus(true)}>Open</button>
       <Buttons />
     </>
   );
