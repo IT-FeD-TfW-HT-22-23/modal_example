@@ -8,7 +8,7 @@ const Intro = () => {
     <>
       <div className="intro">
         <div className="cta">
-          <Typography className="typo" />
+          <h1>Building apps the smart way. Learned how the hard way.</h1>
           <p>
             I'm a freelance software developer. I work with cutting-edge
             software tools and frameworks to build apps that are fast,
